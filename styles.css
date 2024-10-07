@@ -949,7 +949,15 @@ textarea {
 .btn-primary:hover {
     background-color: #28cc0f;
 }
+@media (max-width:768px) {
 
+    .form-group input,
+    .form-group textarea {
+       width: 80%;
+    }
+
+  
+}
 .social-links {
     margin-top: 50px;
 }
